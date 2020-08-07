@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="help-style.css">
+    <title>Help</title>
+</head>
+<body>
+
+    <nav>
+        <div class="logo"><a href="index.html">
+            <h4><img src="logo.png" alt="Chicago" style="width:40%; height: auto;">Music Finder</h4>
+            </a>
+            </div>
+            <ul class="nav-links">
+              <li><a href="#">Premium</a></li>
+              <li><a href="signup.html">Sign up</a></li>
+              <li><a href="login.html">Log In</a></li>
+              <li><a href="help.html">Help</a></li>
+            </ul>
+            <div class="burger">
+              <div class="line1"></div>
+              <div class="line2"></div>
+              <div class="line3"></div>
+        </div>
+        
+    </nav>
+
+    <div class="container">
+               
+        <!-- Page heading -->
+        <section class="heading">
+            <h1><strong>Contact</strong></h1>
+        </section>
+        <hr style="height:2px;border-width:0;background-color:gray">
+
+        <div class="controls">
+    
+        <!-- Contact Me Form-->
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="form_name">Firstname *</label>
+                        <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
+                        <div class="help-block with-errors"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="form_lastname">Lastname *</label>
+                        <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
+                        <div class="help-block with-errors"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="form_email">Email *</label>
+                        <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+                        <div class="help-block with-errors"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label for="form_message">Message *</label>
+                        <textarea id="form_message" name="message" class="form-control" placeholder="Please, leav us a message  with the issues you are experiencing and we will get back to you within the next 24 hours *" rows="4" required="required" data-error="Please, leave us a message."></textarea>
+                        <div class="help-block with-errors"></div>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <input type="submit" class="btn btn-success btn-send" value="Send message">
+                </div>
+            </div>
+        </div>
+
+        <!-- connect with me buttons -->
+            <br>
+        <section class="wrapper">
+            <a class="btn-link" href="https://www.linkedin.com" target="_blank">
+                <i style="font-size:35px" class="fa fa-linkedin-square"></i>
+            </a>
+            <a class="btn-link" href="https://github.com" target="_blank">
+                <i style="font-size:35px" class="fa fa-github"></i>
+            </a>
+            <a class="btn-link" href="https://www.instagram.com" target="_blank">
+                <i style="font-size:35px" class="fa fa-instagram"></i>
+            </a>
+            <a class="btn-link" href="https://twitter.com" target="_blank">
+                <i style="font-size:35px" class="fa fa-twitter"></i>
+            </a>
+        </section>
+    </div>
+
+<script src = "js/script.js"></script>
+</body>
+</html>
