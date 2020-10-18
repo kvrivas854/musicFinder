@@ -18,7 +18,7 @@ node server.js
 Music finder is deployed [here](https://safe-atoll-83262.herokuapp.com/) on Heroku.
 
 ## Credits
-Music Finder was created by @cmaffei720, @kvrivas854, @Pinchukctac. Feel free to contact us if you have any questions! ✌️
+Music Finder was created by @cmaffei720, @kvrivas854, @Pinchukctac. Feel free to contact us if you have any questions!
 
 
 ![](C:\Users\pinch\AppData\Roaming\Typora\typora-user-images\image-20200811161425295.png)
